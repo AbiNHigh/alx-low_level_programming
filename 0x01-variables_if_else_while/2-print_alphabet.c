@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- * Return: 0 always (success)
- */
-int main(void)
+ * main - a simple program that prints out the lowercase alphabet
+ * 
+ * Return: 0 on completion
+ */int main(void)
 {
-	char i;
+	char a;
 
-	for (i = 'a'; i < 'z'; i++)
-		putchar(i);
+	for (a = 'a'; a <= 'z'; a++)
+		putchar(a);
 	putchar('\n');
 	return (0);
 }
