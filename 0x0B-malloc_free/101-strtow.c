@@ -23,7 +23,6 @@ char **strtow(char *str)
 	if (count == 0)
 		return (NULL);
 	words = malloc((count + 1) * sizeof(char *));
-
 	if (words == NULL)
 	{
 		free(words);
